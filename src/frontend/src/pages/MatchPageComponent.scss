@@ -1,0 +1,17 @@
+.MatchPageComponent{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-column-gap: 10px;
+
+    .year-selector{
+        justify-self: end;
+        padding:20px;
+    }
+
+    h1.page-heading{
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+}
